@@ -69,18 +69,7 @@ h3 {
     font-size: 16px;
     /* align-self: center; */
 }
-/* .reset-score {
-    background-color: #F94F6D;
-    font-family: Helvetica, sans-serif;
-    text-align: center;
-    width: 200px;
-    height: 55px;
-    font-weight: bolder;
-    font-size: 27px;
-    border-style: none;
-    border-radius: 10px;
 
-} */
 .reset-score{
     padding: 18px 30px;
     font-size: 30px;
