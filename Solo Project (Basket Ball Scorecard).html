@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="column">
+            <h3>HOME</h3>
+            <h2 class="score" id="home-score">0</h2>
+            <div>
+                <button class="score-increment" id="home-score-increase-1" onclick="increaseHomeScore1()">+1</button>
+                <button class="score-increment" id="home-score-increase-2" onclick="increaseHomeScore2()">+2</button>
+                <button class="score-increment" id="home-score-increase-3" onclick="increaseHomeScore3()">+3</button>
+            </div>
+        </div>
+        <div class="column">
+            <h3>GUEST</h3>
+            <h2 class="score" id="guest-score">0</h2>
+            <div>
+                <button class="score-increment" id="guest-score-increase-1" onclick="increaseGuestScore1()">+1</button>
+                <button class="score-increment" id="guest-score-increase-2" onclick="increaseGuestScore2()">+2</button>
+                <button class="score-increment" id="guest-score-increase-3" onclick="increaseGuestScore3()">+3</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- <button class="reset-score">Reset Score</button> -->
+    <button class="reset-score" id="score-reset" onclick="resetScore()">
+        Reset
+      </button>
+
+    <script src="scorecard-app.js"></script>
+</body>
+</html>
