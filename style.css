@@ -1,10 +1,6 @@
-@font-face {
-    font-family: 'Cursed Timer ULiL';
-    src: url(CursedTimerUlil-Aznm.ttf);
-    font-style:normal;
-    font-weight: bold;
 
-}
+  @import url('https://fonts.cdnfonts.com/css/cursed-timer-ulil');
+                
 *{
     margin: 0;
     padding: 0;
@@ -25,7 +21,7 @@ body {
 }
 
 .score {
-    font-family: 'Cursed Timer ULiL';
+   font-family: 'Cursed Timer ULiL', sans-serif;
     background: #0a0001;
     font-size: 90px;
     color: #F94F6D;
@@ -65,7 +61,7 @@ h3 {
     border-radius: 7px;
     color: #9AABD8;
     border-color: #9AABD8;
-    font-family: 'Cursed Timer ULiL';
+    font-family: 'Cursed Timer ULiL', sans-serif;
     font-size: 16px;
     /* align-self: center; */
 }
@@ -73,7 +69,7 @@ h3 {
 .reset-score{
     padding: 18px 30px;
     font-size: 30px;
-    font-family: 'Cursed Timer ULiL';
+    font-family: 'Cursed Timer ULiL', sans-serif;
     font-weight:bold;
     width: 200px;
     outline: none;
@@ -81,7 +77,7 @@ h3 {
     border: none;
     border-radius: 10px;
     transition: 0.5s;
-    background: #FB98AA;
+    background: #98fba4;
     color: #000000;
     letter-spacing: 1px;
     box-shadow: 0 0 10px #363636, inset 0 0 10px #363636;
